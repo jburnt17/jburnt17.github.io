@@ -198,7 +198,8 @@ textarea {
   .home-hero__socials {
     position: absolute;
     top: 50%;
-    border: 2px solid #eee;
+    border-right: 2px solid #eee;
+    border-top: 2px solid #eee;
     border-left: 2px solid #eee;
     transform: translateY(-50%); }
     @media only screen and (max-width: 56.25em) {
@@ -226,6 +227,10 @@ textarea {
       border-bottom: 0; }
   .home-hero__social-icon {
     width: 100%; }
+  .angel-list {
+    width: 16px;
+    margin-left: .5rem;
+  }
   .home-hero__content {
     position: absolute;
     top: 50%;
@@ -680,7 +685,7 @@ textarea {
     padding: 1rem 2rem;
     margin-bottom: 1.5rem;
     margin-right: 1.5rem;
-    font-size: 1.6rem;
+    font-size: 3rem;
     background: rgba(153, 153, 153, 0.2);
     border-radius: 5px;
     font-weight: 600;
